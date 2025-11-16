@@ -1,0 +1,83 @@
+body{
+    background-image:url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148695092.jpg?semt=ais_incoming&w=740&q=80");
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Poppins,sans-serif;
+}
+
+.loginbox{
+    width:300px;
+    padding:35px 28px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(14px);
+    border-radius:22px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.35);
+    transition:0.3s ease;
+    border:1px solid rgba(255,255,255,0.25);
+}
+
+.loginbox:hover{
+    box-shadow:0 0 35px rgba(252,128,25,0.8);
+    transform:translateY(-4px);
+}
+
+.loginbox h1{
+    margin-top:0;
+    margin-bottom:20px;
+    color:white;
+    font-weight:700;
+    font-size:32px;
+    letter-spacing:1px;
+}
+
+.loginbox label{
+    color:white;
+    font-size:15px;
+    font-weight:500;
+}
+
+.loginbox input{
+    width:90%;
+    padding:12px 14px;
+    margin-top:6px;
+    margin-bottom:12px;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    background:rgba(105,105,105,0.85);
+    opacity:70%;
+    box-shadow:0 0 0 transparent;
+    transition:0.25s ease;
+}
+
+.loginbox input::placeholder{
+    color:white;
+}
+
+.loginbox input:focus{
+    box-shadow:0 0 10px rgba(252,128,25,0.9);
+}
+
+.loginbox button{
+    width:95%;
+    padding:12px 0;
+    background:linear-gradient(135deg,#2b0f3f,#3f1701);
+    color:white;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:25px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.25);
+    transition:0.25s ease;
+}
+
+.loginbox button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 6px 14px rgba(0,0,0,0.28);
+}
